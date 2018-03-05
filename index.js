@@ -15,6 +15,13 @@ function nowServing(katzDeliLine) {
   }
 }
 
-function currentLine() {
-
+function currentLine(katzDeliLine) {
+  if (katzDeliLine.length > 0) {
+    for (var i = 0; i < katzDeliLine.length; i++) {
+      
+    }
+    The line is currently: 1. Ada, 2. Grace
+  } else {
+    return "The line is currently empty."
+  }
 }
